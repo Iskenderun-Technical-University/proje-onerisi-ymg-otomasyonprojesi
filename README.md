@@ -11,3 +11,6 @@
 #### Otomasyon Bilgileri
 
 * Otomasyon JavaFX ile yazılcaktır.
+
+
+#### UML ve Use Case diagramklarına proje dizininden ulaşabilirsiniz.
