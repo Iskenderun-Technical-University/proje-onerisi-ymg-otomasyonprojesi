@@ -16,14 +16,4 @@
 #### UML ve Use Case diagramlarına proje dizininden ulaşabilirsiniz.
 
 
-#### İş Akış
 
-* Veri tabanı oluşturulması
-* Backand kodlaması
-* Frontend kodlaması
-* Logiclerin oluşturulması
-
-#### Projeyi oluşturan
-
-Burak Yurttaşer
-192523056
