@@ -18,9 +18,10 @@
 
 #### İş Akış
 
-* Cari işlemler
-* Fatura işlemleri
-* Detaylı müşteri arama
+* Veri tabanı oluşturulması
+* Backand kodlaması
+* Frontend kodlaması
+* Logiclerin oluşturulması
 
 #### Projeyi oluşturan
 
