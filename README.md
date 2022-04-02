@@ -15,5 +15,7 @@
 
 #### UML ve Use Case diagramlarına proje dizininden ulaşabilirsiniz.
 
+#### Proje planına proje dizininden ulaşabilirsiniz.
+
 
 
