@@ -14,3 +14,15 @@
 
 
 #### UML ve Use Case diagramlarına proje dizininden ulaşabilirsiniz.
+
+
+#### İş Akış
+
+* Cari işlemler
+* Fatura işlemleri
+* Detaylı müşteri arama
+
+#### Projeyi oluşturan
+
+Burak Yurttaşer
+192523056
