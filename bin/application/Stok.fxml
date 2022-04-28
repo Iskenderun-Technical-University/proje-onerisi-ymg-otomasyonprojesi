@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.StokController">
+   <children>
+      <SplitPane dividerPositions="0.531328320802005" layoutX="305.0" layoutY="312.0" orientation="VERTICAL" prefHeight="800.0" prefWidth="1200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <TableView fx:id="table_ana" layoutX="124.0" layoutY="84.0" onMouseClicked="#table_ana_Click" prefHeight="507.0" prefWidth="1198.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <columns>
+                      <TableColumn fx:id="motoid_col" prefWidth="75.0" text="MotorID" />
+                      <TableColumn fx:id="marka_col" prefWidth="75.0" text="Marka" />
+                        <TableColumn fx:id="modelyili_col" prefWidth="75.0" text="Model Yılı" />
+                        <TableColumn fx:id="renk_col" prefWidth="75.0" text="Renk" />
+                        <TableColumn fx:id="fiyat_col" prefWidth="75.0" text="Fiyat" />
+                        <TableColumn fx:id="fatura_col" prefWidth="109.0" text="Fatura Durumu" />
+                        <TableColumn fx:id="motorno_col" prefWidth="360.0" text="Motor No" />
+                        <TableColumn fx:id="sasi_col" minWidth="0.0" prefWidth="319.0" text="Şasi No" />
+                    </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <TextField fx:id="modelyili_txt" alignment="CENTER_RIGHT" layoutX="199.0" layoutY="101.0" promptText="model bilgisi giriniz..">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="marka_txt" alignment="TOP_RIGHT" layoutX="199.0" layoutY="62.0" promptText="marka bilgisi giriniz..">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="fiyat_txt" alignment="CENTER_RIGHT" layoutX="199.0" layoutY="179.0" promptText="fiyat bilgisi giriniz..">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="renk_txt" alignment="TOP_RIGHT" layoutX="199.0" layoutY="140.0" promptText="renk bilgisi giriniz..">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="fatura_txt" alignment="CENTER_RIGHT" layoutX="199.0" layoutY="218.0" promptText="fatura  bilgisi giriniz..">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="motorno_txt" alignment="CENTER_RIGHT" layoutX="199.0" layoutY="296.0" prefHeight="39.0" prefWidth="334.0" promptText="motor no  bilgisi giriniz..">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="sasi_txt" alignment="CENTER_RIGHT" layoutX="199.0" layoutY="257.0" prefHeight="39.0" prefWidth="334.0" promptText=" şasi bilgisi giriniz..">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </TextField>
+                  <Text layoutX="50.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Marka" wrappingWidth="68.13671875">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="50.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Model Yılı" wrappingWidth="128.13671875">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="49.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Renk" wrappingWidth="79.13671875">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="45.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fiyat" wrappingWidth="79.13671875">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="45.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fatura Durumu" wrappingWidth="138.13671875">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="45.0" layoutY="284.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Şasi No" wrappingWidth="138.13671875">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="45.0" layoutY="323.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Motor No" wrappingWidth="138.13671875">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                  </Text>
+                  <Button fx:id="yeni_kayit_btn" layoutX="630.0" layoutY="180.0" mnemonicParsing="false" onAction="#yeni_kayit_btn_Click" prefHeight="37.0" prefWidth="158.0" text="Yeni Kayıt">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="guncelle_btn" layoutX="630.0" layoutY="219.0" mnemonicParsing="false" onAction="#guncelle_btn_Click" prefHeight="37.0" prefWidth="158.0" text="Seçiliyi Güncelle">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="sil_btn" layoutX="630.0" layoutY="258.0" mnemonicParsing="false" onAction="#sil_btn_Click" prefHeight="37.0" prefWidth="158.0" text="Seçiliyi Sil">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="tablo_gubcelle" layoutX="630.0" layoutY="298.0" mnemonicParsing="false" onAction="#tablo_gubcelle__Click" prefHeight="37.0" prefWidth="158.0" text="Tabloyu Güncelle">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Button>
+                  <Label fx:id="lbl_sonuc" layoutX="630.0" layoutY="48.0" prefHeight="66.0" prefWidth="431.0" text="İşlem">
+                     <font>
+                        <Font name="System Bold" size="36.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

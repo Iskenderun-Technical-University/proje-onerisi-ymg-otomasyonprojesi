@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="1111.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AnaSayfaController">
+   <children>
+      <Label layoutX="238.0" layoutY="45.0" text="Motosiklet Otomasyon Sistemi">
+         <font>
+            <Font name="System Bold" size="44.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn_cari" layoutX="94.0" layoutY="190.0" mnemonicParsing="false" onAction="#btn_cari_Click" prefHeight="44.0" prefWidth="284.0" text="Cari Hesap İşlemleri">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_StokList" layoutX="436.0" layoutY="190.0" mnemonicParsing="false" onAction="#btn_StokList_Onclik" prefHeight="44.0" prefWidth="284.0" text="Stok İşlemleri">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_FATURA" layoutX="786.0" layoutY="190.0" mnemonicParsing="false" onAction="#btn_FATURA_oNCLİCK" prefHeight="44.0" prefWidth="284.0" text="Fatura İşlemleri">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_kullanici" layoutX="94.0" layoutY="302.0" mnemonicParsing="false" onAction="#btn_kullanici_Click" prefHeight="44.0" prefWidth="284.0" text="Kullanıcı İşlemleri">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="detaylıStok_btn" layoutX="436.0" layoutY="302.0" mnemonicParsing="false" onAction="#detaylıStok_btn_Onclick" prefHeight="44.0" prefWidth="284.0" text="Detaylı Stok Arama">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="BTN_CİKİS" layoutX="786.0" layoutY="302.0" mnemonicParsing="false" onAction="#BTN_CİKİS_oNCLİCK" prefHeight="44.0" prefWidth="284.0" text="Çıkış Yap">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
